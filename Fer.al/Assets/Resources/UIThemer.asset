@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3014c3069b648646875799149889d63, type: 3}
+  m_Name: UIThemer
+  m_EditorClassIdentifier:
+  _currentThemeIndex: 0
+  _themes:
+  - {fileID: 11400000, guid: a360f95e7ab375b4a9269e3f73b20826, type: 2}
+  - {fileID: 11400000, guid: e37d294584d810745b0b229edbd929a8, type: 2}
+  - {fileID: 11400000, guid: 618aca90c544fd5479739e9d4bad130b, type: 2}
+  - {fileID: 11400000, guid: 348f52c157cfaf249a329dfbd51299e3, type: 2}
+  - {fileID: 11400000, guid: b129140dfaa5144478647b4d03c2eacf, type: 2}
+  _imgManifest:
+  - first: 0a7288d4-ab18-4e47-9d3e-7a8d77cb1ef7
+    second: Button_Close
+  - first: 833965a1-11ce-4a41-aef6-80a5119eb9c5
+    second: Button_Standard
+  - first: af243b64-261b-4f3c-b42f-140c5ce174a7
+    second: WindowHeader_BG
+  - first: f7e794e0-d40f-44d5-bde1-74cbcd6dceab
+    second: WindowBody_BG
+  - first: 851b13b7-d647-41eb-984b-aa7ee0c92343
+    second: WindowBody_FG
+  - first: 955163ba-d125-43cf-b857-73296aa0f47b
+    second: ScrollBar_BG
+  - first: 416bd65c-fa16-4659-8047-665800b4335c
+    second: ScrollBar_Handle
+  - first: 41b0bfde-47ef-4dfc-9dad-e5570f9c2133
+    second: WindowBody_FG_Bold
+  - first: 97b08944-1b4c-4450-aad5-b38866f8e0bd
+    second: Input_Small_BG
+  - first: 12089fb7-58f9-41c6-b8b1-063b160fedc7
+    second: Input_Large_BG
+  - first: f5606a7a-9dc5-4a57-a2dc-cbbd0f986c2d
+    second: WindowHeader_FG
+  - first: df3bba52-6170-4fe6-b08f-0e65abe8fd94
+    second: Button_Standard_FG
+  - first: fc498169-0218-4d08-8518-68a496a93da1
+    second: Button_Tab_Plain
+  - first: 30bf048f-1b1c-448c-80f7-2cdaa5b1b869
+    second: Scrim
+  - first: 85779932-785b-4b2a-880b-74aa6977f2ca
+    second: Icn_Search
+  - first: 2c6f346f-1014-4f3a-b580-e5f222526d51
+    second: Divider_Thin_Horizontal
+  - first: be38d300-b693-4cc2-99af-e31e02cea3d2
+    second: Input_Small_Highlight
+  - first: 714305f4-4da2-4110-b071-66bcabfec1fd
+    second: FrameFlower3
+  - first: b22b6608-a052-46b5-9011-bac133068f1c
+    second: TabBar_BG
+  - first: 04ef790d-cc99-4057-8d71-9fc232122927
+    second: Button_TabBarItem
+  - first: 6f1f9cc6-5e5c-4277-aa1a-3917536dc711
+    second: TabBarBG
+  - first: c32dd252-bd18-4b8a-ba10-a44840fded56
+    second: Button_Large
+  - first: 02d0c092-f2b2-49eb-8428-a8d55547aa42
+    second: frame_simple_highlight
+  - first: 3e228a02-bad2-477f-827b-a7fce5febc6f
+    second: DropdownBG
+  - first: 1f930411-762b-4230-8230-365882be9a57
+    second: Icn_Notification
+  - first: 9f66b679-b28c-4396-8f2d-6d7e9cfc680b
+    second: Panel_BG
+  _txtManifest:
+  - first: 301def7c-1c5b-4af5-9001-c15103a42505
+    second: WindowHeader
+  - first: 34ca4404-fe96-4ea0-82ed-bedb1b64ebb8
+    second: Button_Standard
+  - first: 3be1317e-89da-40a3-a3e6-6e3105399ed8
+    second: Button_Close
+  - first: f2e435ec-1396-4117-a7fd-d963eb8c0f1a
+    second: LabelTitle
+  - first: 30012a26-889d-409a-bff5-21be44240c9d
+    second: Message_Regular
+  - first: 290b3205-28ad-4bc9-bae8-1fbe2b592586
+    second: Input_Small_Placeholder
+  - first: 54bf7cd9-fefe-4b9a-aba2-24283762e95f
+    second: Input_Small_Text
+  - first: 8240f710-7548-4439-b857-5c4471c3fd54
+    second: Input_Large_Placeholder
+  - first: 26df8faa-45f6-4dfb-8474-91c11455aca2
+    second: Input_Large_Text
+  - first: b11db956-47cf-49b5-916f-2d13f11e1477
+    second: WindowHeaderText
+  - first: 92cc361f-6a73-4608-858f-28a734d17285
+    second: Input_Search_Placeholder
+  - first: ca194390-2cf2-49d9-91b7-8c9d6ea95a40
+    second: Input_Search_Content
+  - first: bd833874-933d-4ca7-b818-f2dd77d004b9
+    second: Dialogue_NPC
+  - first: 5a213b18-b637-4ba0-885f-38f7b28bfba3
+    second: Dialogue_Response
+  _btnManifest:
+  - first: ecf42b4c-184e-4025-ba15-e4d32e9646ad
+    second: Close
+  - first: d5cde8cc-7465-4095-81ee-78e94c7dad32
+    second: Standard
+  - first: c5ff6894-f57f-4200-b4c0-bddfd8b686d7
+    second: Tab_Plain
+  - first: 8e0ec738-f0b7-413d-b4b5-cc88772ed969
+    second: TabBarItem
+  - first: 7d870ba5-0ef9-479d-a070-ee0275e274cc
+    second: Panel

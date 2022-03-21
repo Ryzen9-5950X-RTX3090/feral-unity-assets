@@ -1,0 +1,52 @@
+using System;
+using System.Runtime.InteropServices;
+
+public class vx_resp_account_send_message_t : IDisposable
+{
+	private HandleRef swigCPtr;
+
+	protected bool swigCMemOwn;
+
+	public vx_resp_base_t base_
+	{
+		get
+		{
+			return null;
+		}
+		set
+		{
+		}
+	}
+
+	public string request_id
+	{
+		get
+		{
+			return null;
+		}
+		set
+		{
+		}
+	}
+
+	internal vx_resp_account_send_message_t(IntPtr cPtr, bool cMemoryOwn)
+	{
+	}
+
+	internal static HandleRef getCPtr(vx_resp_account_send_message_t obj)
+	{
+		return default(HandleRef);
+	}
+
+	~vx_resp_account_send_message_t()
+	{
+	}
+
+	public virtual void Dispose()
+	{
+	}
+
+	public vx_resp_account_send_message_t()
+	{
+	}
+}

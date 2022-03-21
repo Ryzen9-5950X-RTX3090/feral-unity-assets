@@ -1,0 +1,10 @@
+public class SanctuaryGreenhouseTemplate : SanctuaryFurnitureTemplate
+{
+	public SanctuaryGreenhouseDefComponent sanctuaryGreenhouseDefComponent;
+
+	public SanctuaryGreenhouseExteriorGetModelDefComponent sanctuaryGreenhouseExteriorGetModelDefComponent;
+
+	public SanctuaryGreenhouseInteriorGetModelDefComponent sanctuaryGreenhouseInteriorGetModelDefComponent;
+
+	public SanctuaryGreenhouseExteriorDoorGetModelDefComponent sanctuaryGreenhouseExteriorDoorGetModelDefComponent;
+}

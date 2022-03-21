@@ -1,0 +1,11 @@
+public enum TradeValidationType
+{
+	SUCCESS = 0,
+	GENERIC_ERROR = -1,
+	TIMEOUT = -2,
+	REJECTED = -3,
+	ITEM_NOT_AVAIL = -4,
+	USER_NOT_AVAIL = -5,
+	INVENTORY_FULL = -6,
+	SENDER_CANCELLED = -7
+}

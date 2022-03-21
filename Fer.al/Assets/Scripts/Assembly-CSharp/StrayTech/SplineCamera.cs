@@ -1,0 +1,76 @@
+using System.Runtime.CompilerServices;
+using UnityEngine;
+
+namespace StrayTech
+{
+	public class SplineCamera : ICameraState
+	{
+		private SplineCameraStateSettings _stateSettings;
+
+		private Transform _cameraLookAtTransform;
+
+		private float _currentSplineT;
+
+		public ICameraStateSettings StateSettings
+		{
+			get
+			{
+				return null;
+			}
+		}
+
+		public CameraSystem.CameraStateEnum StateType
+		{
+			get
+			{
+				return default(CameraSystem.CameraStateEnum);
+			}
+		}
+
+		public bool AllowsModifiers
+		{
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		public Vector3 Position
+		{
+			[CompilerGenerated]
+			get
+			{
+				return default(Vector3);
+			}
+			[CompilerGenerated]
+			set
+			{
+			}
+		}
+
+		public Quaternion Rotation
+		{
+			[CompilerGenerated]
+			get
+			{
+				return default(Quaternion);
+			}
+			[CompilerGenerated]
+			set
+			{
+			}
+		}
+
+		public SplineCamera(ICameraStateSettings stateSettings)
+		{
+		}
+
+		public void UpdateCamera(float deltaTime)
+		{
+		}
+
+		public void Cleanup()
+		{
+		}
+	}
+}

@@ -1,0 +1,27 @@
+public enum ActorInfoDirtyType
+{
+	FullRebuild,
+	BodyBodyParts,
+	BodyMaterialBaseTexture,
+	BodyMaterialColors,
+	BodyMaterialShader,
+	ClothingItems,
+	ClothingItemsMaterialColors,
+	EyeAddRemove,
+	EyeShapeSprite,
+	EyeShapeColor,
+	EyeShapePosition,
+	EyePupilSprite,
+	EyePupilColor,
+	EyePupilPosition,
+	HornMaterialColors,
+	WingMaterialColors,
+	SparkMaterialColors,
+	DecalAddRemove,
+	DecalSelect,
+	DecalEnableDisable,
+	DecalSprite,
+	DecalPosition,
+	DecalColor,
+	DecalOrder
+}

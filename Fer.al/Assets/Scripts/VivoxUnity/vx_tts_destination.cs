@@ -1,0 +1,10 @@
+public enum vx_tts_destination
+{
+	tts_dest_remote_transmission,
+	tts_dest_local_playback,
+	tts_dest_remote_transmission_with_local_playback,
+	tts_dest_queued_remote_transmission,
+	tts_dest_queued_local_playback,
+	tts_dest_queued_remote_transmission_with_local_playback,
+	tts_dest_screen_reader
+}

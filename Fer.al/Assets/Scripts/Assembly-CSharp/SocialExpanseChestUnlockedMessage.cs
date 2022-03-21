@@ -1,0 +1,8 @@
+public class SocialExpanseChestUnlockedMessage : Message
+{
+	public readonly SocialExpanseGroupLinearObjectsProgressItemComponent socialExpanseProgressItemComponent;
+
+	public SocialExpanseChestUnlockedMessage(SocialExpanseGroupLinearObjectsProgressItemComponent inSocialExpanseProgressItemComponent)
+	{
+	}
+}

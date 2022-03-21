@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1590097272218830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4259682737041454}
+  - component: {fileID: 114520518231734950}
+  m_Layer: 0
+  m_Name: FeralVivoxManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4259682737041454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590097272218830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114520518231734950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590097272218830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c46cfe161108114dbc2ba607c55f1c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  debugAlwaysVerboseOnDevice: 0
+  _locTitleBlocked: 30240
+  _locDescBlocked: 30241
+  _locOk: 4075
+  _locYes: 4154
+  _locNo: 4155
+  _locTitleWait: 29854
+  _locDescWait: 29853
+  _locTitleInviteSent: 29578
+  _locDescInviteSent: 30080
+  _locDescAlreadyInYourGroup: 29852
+  _locTitleAlreadyInGroup: 29831
+  _locDescAlreadyInGroup: 29832
+  _locTitleInvite: 29829
+  _locDescInvite: 29830
+  _locTitleGroupNotFound: 29834
+  _locDescGroupNotFound: 29833
+  _locTitleFullGroup: 29835
+  _locDescFullGroup: 29836
+  _locDescFullGroupInvite: 30236
+  _locTitleFollowersOnly: 29827
+  _locDescFollowersOnly: 29828
+  _locTitleDisabled: 29823
+  _locDescDisabledWildWorks: 29824
+  _locDescDisabledSettings: 29825
+  _locDescDisabledPrivacy: 29825
+  _locTitleMicDisabled: 30099
+  _locDescMicDisabled_iOS: 30100
+  _locDescMicDisabled_Android: 30101
+  _locDescMicDisabled: 30102
+  _groupInviteTimer:
+    currentCryptoKey: 1165321527
+    hiddenValue: 1165321531
+    inited: 1
+    fakeValue: 12
+    fakeValueActive: 1
+  _vivoxDevelopment:
+    server:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 8e00a0008800cf0091007f002000
+      hiddenChars: e600d400fc00bf00e20045000f00a100d600ec00b700a40051005700f900d700a600b900f80009004f00f6008e00eb00a000fc0050004100fe00c900ba00
+      inited: 1
+      fakeValue: https://vdx5.www.vivox.com/api2
+      fakeValueActive: 1
+    domain:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 5f00bd00d200c1006500ca004400
+      hiddenChars: 2900d900aa00f4004b00bc002d002900d200aa00ef000600a5002900
+      inited: 1
+      fakeValue: vdx5.vivox.com
+      fakeValueActive: 1
+    tokenIssuer:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: eb009500420008004b004900ca00
+      hiddenChars: 9c00fc002e006c003c002600f800d800ac007b0025002d002c00fb00d800b80026006d003d00
+      inited: 1
+      fakeValue: wildwo2399-fe13-dev
+      fakeValueActive: 1
+    tokenKey:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: ef005c0077000400e9002200a700
+      hiddenChars: 8c00340016007400da001b009e00
+      inited: 1
+      fakeValue: chap399
+      fakeValueActive: 1
+  _vivoxProduction:
+    server:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 5b00d3009c00b900d100bb005d00
+      hiddenChars: 3300a700e800c900a200810072007400be00e8008b00a10095002a002c00a400b200cf00b800cd0032002300fd00ff00d600bc0094003c002b00ba00ae00
+      inited: 1
+      fakeValue: https://mt2p.www.vivox.com/api2
+      fakeValueActive: 1
+    domain:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: e400710035000e0033006d002d00
+      hiddenChars: 8900050007007e001d001b00440092001e004d002000500002004000
+      inited: 1
+      fakeValue: mt2p.vivox.com
+      fakeValueActive: 1
+    tokenIssuer:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: bb00c1008a00d1000b008a00f400
+      hiddenChars: cc00a800e600b5007c00e500c6008800f800b300fc006d00ef00c5008800
+      inited: 1
+      fakeValue: wildwo2399-fe13
+      fakeValueActive: 1
+    tokenKey:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: da001900f300d900b9004c00c600
+      hiddenChars: a8004f00bc00ed00ed007f00f200800053009500ea00c3002900ad009d006f008100a800f8007b00f2008a005100cb009500ce001b0080008a002d00b500a900
+      inited: 1
+      fakeValue: rVO4T34ZJf3zekGvrqA74PH8LwWFP4Fp
+      fakeValueActive: 1

@@ -1,0 +1,14 @@
+public class BundlePackTemplate : PropertyEditor.ChartTemplateBase
+{
+	public BundlePackDefComponent bundlePackDefComponent;
+
+	public LocalizedNameDefComponent localizedNameDefComponent;
+
+	public LocalizedDescriptionDefComponent localizedDescriptionDefComponent;
+
+	public LocalizedDetailedDescriptionDefComponent localizedDetailedDescriptionDefComponent;
+
+	public Icon2DDefComponent icon2DDefComponent;
+
+	public AstralShopCategoryRefDefComponent astralShopCategory;
+}

@@ -1,0 +1,7 @@
+public enum vx_session_handle_type
+{
+	session_handle_type_unique,
+	session_handle_type_legacy,
+	session_handle_type_heirarchical_numeric,
+	session_handle_type_heirarchical_unique
+}

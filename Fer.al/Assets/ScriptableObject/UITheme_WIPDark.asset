@@ -1,0 +1,673 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c0fa75a32055f428fe3421dc244bc2, type: 3}
+  m_Name: UITheme_WIPDark
+  m_EditorClassIdentifier:
+  _imageThemeData:
+  - _id: 0a7288d4-ab18-4e47-9d3e-7a8d77cb1ef7
+    _name: Button_Close
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 833965a1-11ce-4a41-aef6-80a5119eb9c5
+    _name: Button_Standard
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: af243b64-261b-4f3c-b42f-140c5ce174a7
+    _name: WindowHeader_BG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: f7e794e0-d40f-44d5-bde1-74cbcd6dceab
+    _name: WindowBody_BG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 851b13b7-d647-41eb-984b-aa7ee0c92343
+    _name: WindowBody_FG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 955163ba-d125-43cf-b857-73296aa0f47b
+    _name: ScrollBar_BG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 416bd65c-fa16-4659-8047-665800b4335c
+    _name: ScrollBar_Handle
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 41b0bfde-47ef-4dfc-9dad-e5570f9c2133
+    _name: WindowBody_FG_Bold
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 97b08944-1b4c-4450-aad5-b38866f8e0bd
+    _name: Input_Small_BG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 12089fb7-58f9-41c6-b8b1-063b160fedc7
+    _name: Input_Large_BG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: f5606a7a-9dc5-4a57-a2dc-cbbd0f986c2d
+    _name: WindowHeader_FG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 1
+    _overridePixelsPerUnit: 800
+    _type: 1
+    _fillCenter: 1
+    _fillMethod: 0
+    _fillAmount: 0
+    _fillClockwise: 0
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: df3bba52-6170-4fe6-b08f-0e65abe8fd94
+    _name: Button_Standard_FG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 1
+    _overridePixelsPerUnit: 100
+    _type: 1
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: fc498169-0218-4d08-8518-68a496a93da1
+    _name: Button_Tab_Plain
+    _sprite: {fileID: 21300000, guid: 561fe28b319f3c24ba9b304e55b6fc7a, type: 3}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 1
+    _overridePixelsPerUnit: 75
+    _type: 1
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 30bf048f-1b1c-448c-80f7-2cdaa5b1b869
+    _name: Scrim
+    _sprite: {fileID: 0}
+    _color: {r: 0, g: 0, b: 0, a: 0.29803923}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 85779932-785b-4b2a-880b-74aa6977f2ca
+    _name: Icn_Search
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 2c6f346f-1014-4f3a-b580-e5f222526d51
+    _name: Divider_Thin_Horizontal
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: be38d300-b693-4cc2-99af-e31e02cea3d2
+    _name: Input_Small_Highlight
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 714305f4-4da2-4110-b071-66bcabfec1fd
+    _name: FrameFlower3
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: b22b6608-a052-46b5-9011-bac133068f1c
+    _name: TabBar_BG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 04ef790d-cc99-4057-8d71-9fc232122927
+    _name: Button_TabBarItem
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 1
+    _overridePixelsPerUnit: 650
+    _type: 1
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 0.65
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 6f1f9cc6-5e5c-4277-aa1a-3917536dc711
+    _name: TabBarBG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: c32dd252-bd18-4b8a-ba10-a44840fded56
+    _name: Button_Large
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 1
+    _overridePixelsPerUnit: 650
+    _type: 1
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 0.65
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 02d0c092-f2b2-49eb-8428-a8d55547aa42
+    _name: frame_simple_highlight
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 1
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 3e228a02-bad2-477f-827b-a7fce5febc6f
+    _name: DropdownBG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  - _id: 1f930411-762b-4230-8230-365882be9a57
+    _name: Icn_Notification
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 0
+    _overridePixelsPerUnit: 100
+    _type: 0
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 1
+  - _id: 9f66b679-b28c-4396-8f2d-6d7e9cfc680b
+    _name: Panel_BG
+    _sprite: {fileID: 0}
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _useOverridePixelsPerUnit: 1
+    _overridePixelsPerUnit: 500
+    _type: 1
+    _fillCenter: 1
+    _fillMethod: 4
+    _fillAmount: 1
+    _fillClockwise: 1
+    _fillOrigin: 0
+    _preserveAspect: 0
+  _textThemeData:
+  - _id: 301def7c-1c5b-4af5-9001-c15103a42505
+    _name: WindowHeader
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: 34ca4404-fe96-4ea0-82ed-bedb1b64ebb8
+    _name: Button_Standard
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: 3be1317e-89da-40a3-a3e6-6e3105399ed8
+    _name: Button_Close
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: f2e435ec-1396-4117-a7fd-d963eb8c0f1a
+    _name: LabelTitle
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: 30012a26-889d-409a-bff5-21be44240c9d
+    _name: Message_Regular
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: 290b3205-28ad-4bc9-bae8-1fbe2b592586
+    _name: Input_Small_Placeholder
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: 54bf7cd9-fefe-4b9a-aba2-24283762e95f
+    _name: Input_Small_Text
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: 8240f710-7548-4439-b857-5c4471c3fd54
+    _name: Input_Large_Placeholder
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: 26df8faa-45f6-4dfb-8474-91c11455aca2
+    _name: Input_Large_Text
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: b11db956-47cf-49b5-916f-2d13f11e1477
+    _name: WindowHeaderText
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 0}
+    _fontMaterial: {fileID: 0}
+    _fontSize: 12
+    _autoSize: 0
+    _minFontSize: 8
+    _maxFontSize: 30
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+      bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: 92cc361f-6a73-4608-858f-28a734d17285
+    _name: Input_Search_Placeholder
+    _color: {r: 1, g: 1, b: 1, a: 0.5019608}
+    _fontAsset: {fileID: 11400000, guid: d1c8b89cf62204445a1116c21b292bbb, type: 2}
+    _fontMaterial: {fileID: 2100000, guid: 3969616dcdbdfe048a686cad017a0ddb, type: 2}
+    _fontSize: 36
+    _autoSize: 0
+    _minFontSize: 18
+    _maxFontSize: 72
+    _fontStyle: 0
+    _useGradient: 1
+    _vertexGradient:
+      topLeft: {r: 0, g: 0, b: 0, a: 0}
+      topRight: {r: 0, g: 0, b: 0, a: 0}
+      bottomLeft: {r: 0, g: 0, b: 0, a: 0}
+      bottomRight: {r: 0, g: 0, b: 0, a: 0}
+    _gradientPreset: {fileID: 11400000, guid: b00668dc5c5d44d4cb90e6dbca038d71, type: 2}
+  - _id: ca194390-2cf2-49d9-91b7-8c9d6ea95a40
+    _name: Input_Search_Content
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 11400000, guid: d1c8b89cf62204445a1116c21b292bbb, type: 2}
+    _fontMaterial: {fileID: 2100000, guid: 3969616dcdbdfe048a686cad017a0ddb, type: 2}
+    _fontSize: 36
+    _autoSize: 0
+    _minFontSize: 18
+    _maxFontSize: 72
+    _fontStyle: 0
+    _useGradient: 1
+    _vertexGradient:
+      topLeft: {r: 0, g: 0, b: 0, a: 0}
+      topRight: {r: 0, g: 0, b: 0, a: 0}
+      bottomLeft: {r: 0, g: 0, b: 0, a: 0}
+      bottomRight: {r: 0, g: 0, b: 0, a: 0}
+    _gradientPreset: {fileID: 11400000, guid: b00668dc5c5d44d4cb90e6dbca038d71, type: 2}
+  - _id: bd833874-933d-4ca7-b818-f2dd77d004b9
+    _name: Dialogue_NPC
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 11400000, guid: b6303f9012a6cd543a897e595d0b3afb, type: 2}
+    _fontMaterial: {fileID: 2100000, guid: efb43ecaba68b41428f4a49fe4c2208b, type: 2}
+    _fontSize: 20
+    _autoSize: 1
+    _minFontSize: 14
+    _maxFontSize: 20
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+      bottomRight: {r: 0.5882353, g: 0.5882353, b: 0.6603774, a: 1}
+    _gradientPreset: {fileID: 0}
+  - _id: 5a213b18-b637-4ba0-885f-38f7b28bfba3
+    _name: Dialogue_Response
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _fontAsset: {fileID: 11400000, guid: b6303f9012a6cd543a897e595d0b3afb, type: 2}
+    _fontMaterial: {fileID: 2100000, guid: efb43ecaba68b41428f4a49fe4c2208b, type: 2}
+    _fontSize: 16
+    _autoSize: 0
+    _minFontSize: 18
+    _maxFontSize: 72
+    _fontStyle: 0
+    _useGradient: 0
+    _vertexGradient:
+      topLeft: {r: 1, g: 1, b: 1, a: 1}
+      topRight: {r: 1, g: 1, b: 1, a: 1}
+      bottomLeft: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+      bottomRight: {r: 0.5882353, g: 0.5882353, b: 0.6603774, a: 1}
+    _gradientPreset: {fileID: 0}
+  _buttonThemeData:
+  - _id: ecf42b4c-184e-4025-ba15-e4d32e9646ad
+    _name: Close
+    _transition: 1
+    _colorBlock:
+      m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+      m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+      m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+      m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
+      m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+      m_ColorMultiplier: 0
+      m_FadeDuration: 0
+    _spriteState:
+      m_HighlightedSprite: {fileID: 0}
+      m_PressedSprite: {fileID: 0}
+      m_SelectedSprite: {fileID: 0}
+      m_DisabledSprite: {fileID: 0}
+  - _id: d5cde8cc-7465-4095-81ee-78e94c7dad32
+    _name: Standard
+    _transition: 2
+    _colorBlock:
+      m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+      m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+      m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+      m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+      m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.1
+    _spriteState:
+      m_HighlightedSprite: {fileID: 0}
+      m_PressedSprite: {fileID: 0}
+      m_SelectedSprite: {fileID: 0}
+      m_DisabledSprite: {fileID: 0}
+  - _id: c5ff6894-f57f-4200-b4c0-bddfd8b686d7
+    _name: Tab_Plain
+    _transition: 1
+    _colorBlock:
+      m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+      m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+      m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+      m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+      m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.1
+    _spriteState:
+      m_HighlightedSprite: {fileID: 0}
+      m_PressedSprite: {fileID: 0}
+      m_SelectedSprite: {fileID: 0}
+      m_DisabledSprite: {fileID: 0}
+  - _id: 8e0ec738-f0b7-413d-b4b5-cc88772ed969
+    _name: TabBarItem
+    _transition: 2
+    _colorBlock:
+      m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+      m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+      m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+      m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+      m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.1
+    _spriteState:
+      m_HighlightedSprite: {fileID: 0}
+      m_PressedSprite: {fileID: 0}
+      m_SelectedSprite: {fileID: 0}
+      m_DisabledSprite: {fileID: 0}
+  - _id: 7d870ba5-0ef9-479d-a070-ee0275e274cc
+    _name: Panel
+    _transition: 1
+    _colorBlock:
+      m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+      m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+      m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+      m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+      m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+      m_ColorMultiplier: 1
+      m_FadeDuration: 0.1
+    _spriteState:
+      m_HighlightedSprite: {fileID: 0}
+      m_PressedSprite: {fileID: 0}
+      m_SelectedSprite: {fileID: 0}
+      m_DisabledSprite: {fileID: 0}

@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1442275179750318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4655463622141115}
+  - component: {fileID: 114932519504012281}
+  - component: {fileID: 114172922028352834}
+  - component: {fileID: 114240128598444727}
+  - component: {fileID: 114767741025180260}
+  - component: {fileID: 114025814268225162}
+  m_Layer: 0
+  m_Name: VideoRecorderManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4655463622141115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275179750318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114932519504012281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275179750318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2450001651450b443913cd81927de3e2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  debugAlwaysVerboseOnDevice: 0
+  _screenShotHandler: {fileID: 114240128598444727}
+  _shutterSfx:
+    eventRef: event:/global/ui_btn_selfie_click
+    _allowFadeout: 1
+    _triggerOnce: 0
+    _attachToOverride: {fileID: 0}
+    _parameters: []
+    _modParameter: []
+    _overrideAttenuation: 0
+    _overrideMinDistance: -1
+    _overrideMaxDistance: -1
+--- !u!114 &114172922028352834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275179750318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdd074fc76265a4d98f0211fc47c093, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _frameSkip: 0
+--- !u!114 &114240128598444727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275179750318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b792a5b6020ea644fb3d09b234068d24, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  debugDimensions: {x: 0, y: 0}
+--- !u!114 &114767741025180260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275179750318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad61c07f1a38a2f46843c439a0343fd1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114025814268225162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442275179750318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53af649fb27721d48bc4d04a65d0d3ba, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

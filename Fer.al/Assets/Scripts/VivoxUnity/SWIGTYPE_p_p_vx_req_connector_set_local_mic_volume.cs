@@ -1,0 +1,20 @@
+using System;
+using System.Runtime.InteropServices;
+
+public class SWIGTYPE_p_p_vx_req_connector_set_local_mic_volume
+{
+	private HandleRef swigCPtr;
+
+	internal SWIGTYPE_p_p_vx_req_connector_set_local_mic_volume(IntPtr cPtr, bool futureUse)
+	{
+	}
+
+	protected SWIGTYPE_p_p_vx_req_connector_set_local_mic_volume()
+	{
+	}
+
+	internal static HandleRef getCPtr(SWIGTYPE_p_p_vx_req_connector_set_local_mic_volume obj)
+	{
+		return default(HandleRef);
+	}
+}

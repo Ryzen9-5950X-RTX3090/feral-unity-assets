@@ -1,0 +1,6 @@
+public enum vx_publication_state_change_state
+{
+	publication_state_success,
+	publication_state_transient_error,
+	publication_state_permanent_error
+}

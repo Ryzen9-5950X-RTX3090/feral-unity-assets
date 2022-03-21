@@ -1,0 +1,13 @@
+public enum vx_sessiongroup_audio_injection_control_type
+{
+	VX_SESSIONGROUP_AUDIO_INJECTION_CONTROL_STOP,
+	vx_sessiongroup_audio_injection_control_stop,
+	VX_SESSIONGROUP_AUDIO_INJECTION_CONTROL_START,
+	vx_sessiongroup_audio_injection_control_start,
+	VX_SESSIONGROUP_AUDIO_INJECTION_CONTROL_RESTART,
+	vx_sessiongroup_audio_injection_control_restart,
+	VX_SESSIONGROUP_AUDIO_INJECTION_CONTROL_MIN,
+	vx_sessiongroup_audio_injection_control_min,
+	VX_SESSIONGROUP_AUDIO_INJECTION_CONTROL_MAX,
+	vx_sessiongroup_audio_injection_control_max
+}

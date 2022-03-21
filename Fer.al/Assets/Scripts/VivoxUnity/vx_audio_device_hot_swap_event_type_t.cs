@@ -1,0 +1,8 @@
+public enum vx_audio_device_hot_swap_event_type_t
+{
+	vx_audio_device_hot_swap_event_type_disabled_due_to_platform_constraints,
+	vx_audio_device_hot_swap_event_type_active_render_device_changed,
+	vx_audio_device_hot_swap_event_type_active_capture_device_changed,
+	vx_audio_device_hot_swap_event_type_audio_device_added,
+	vx_audio_device_hot_swap_event_type_audio_device_removed
+}

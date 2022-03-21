@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1511363740239148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4249112509898154}
+  - component: {fileID: 114556529379984920}
+  m_Layer: 0
+  m_Name: GlobalSettingsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4249112509898154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511363740239148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114556529379984920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511363740239148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e762f8fea6505654db4ad894bfcbd446, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  debugAlwaysVerboseOnDevice: 0
+  version: 0.19.1
+  currentBuild: Prod_v0_19_1
+  currentBuildNumber: 548
+  quality: 30
+  qualityAutoSetOnDevice: 1
+  platformEmulatePhoneInEditor: 0
+  audioQuality: 15
+  useEditorTestPlatform: 1
+  editorTestPlatform: 1
+  editorLanguage: 10
+  showUnlocalizedLabels: 0
+  supportedLanguages: 0a000000
+  showUnityVersionPopup: 1
+  chartForceOfflineMode: 0
+  chartForceOfflineChartNames: []
+  chartAllowOfflineMode: 0
+  chartTestOfflineMode: 0
+  bundleMode: 0
+  bundlePlatform: 0
+  bundleEmulateSlowBundlesInEditor: 0
+  bundleUseDevBundlesInEditor: 0
+  bundleUseDownloaderInEditor: 0
+  bundleUseEditorAssetBundleServer: 0
+  bundleEditorAssetBundleServerURL:
+  airplaneMode: 0
+  forceKeepAlive: 0
+  serverTier: 2
+  currentServerEnvironment: {fileID: 11400000, guid: 667a672ee598b2a458c0d08de371e8be, type: 2}
+  serverEnvironments:
+  - {fileID: 11400000, guid: 13f940d7ab504c843ba68ad2c27c848a, type: 2}
+  - {fileID: 11400000, guid: 4be9b05e10e894148bb521d0dce6f0c9, type: 2}
+  - {fileID: 11400000, guid: 667a672ee598b2a458c0d08de371e8be, type: 2}
+  noAutoLoginInEditor: 0
+  autoPressLoginButton: 0
+  forceOfflineMode: 0
+  defaultSanctuaryLevelDefId: 1689

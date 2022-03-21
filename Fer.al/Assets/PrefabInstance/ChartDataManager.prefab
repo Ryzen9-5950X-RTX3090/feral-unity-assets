@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1940622762085760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4288649290607730}
+  - component: {fileID: 114747715319389177}
+  m_Layer: 0
+  m_Name: ChartDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4288649290607730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940622762085760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114747715319389177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940622762085760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9050c1b321bee1459cfa1e581dde0da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  debugAlwaysVerboseOnDevice: 0
+  manifestChartData: {fileID: 114117028385584226, guid: 158d61ed842c94042a3ae68b5ffc8ec6, type: 2}
+  globalChartData: {fileID: 114176554691860669, guid: 1263a5b20375fa340be4e9a74f6e64b6, type: 2}
+  debugChartData: {fileID: 114584266038373287, guid: 1e7d8166ccb249042aae6e60aa4a9e65, type: 2}
+  urlChartData: {fileID: 114217535660885068, guid: ab3c289b2889e3a41a3b5562bccfa5dc, type: 2}
+  analyticsChartData: {fileID: 114503874023265883, guid: 3480cc92dbc221943aeb20154b0fb24a, type: 2}
+  systemLocalizationChartData: {fileID: 114160912681567559, guid: 41fef0e5d1712c142b6b05b721abc78b, type: 2}
+  localizationChartData: {fileID: 114814041466838485, guid: 98ad8ba2355ef0941ac129326e61598f, type: 2}
+  listChartData: {fileID: 114459709819993226, guid: 4b9ade1bd3e95fa409e1c372935fd674, type: 2}
+  levelOverrideChartData: {fileID: 114927481827824765, guid: 6a81ce0ef4ee7b14d81596d6054d4033, type: 2}
+  levelChartData: {fileID: 114680814133123135, guid: eebab3879c2f8cf4d8be7491f5e9744d, type: 2}
+  imageChartData: {fileID: 114496062712696494, guid: 1cc891d363d4ba448b8e22780a576c9d, type: 2}
+  colorChartData: {fileID: 114094429650173742, guid: c13b3b95f15c62c47a49d81a32d07b7d, type: 2}
+  worldObjectChartData: {fileID: 114634879931432623, guid: a7cd2bf3041b34d44a5952aec2e9ac37, type: 2}
+  actorAttachNodeChartData: {fileID: 114951758335370604, guid: 031b898484cd66d4095f5b9ab8d16564, type: 2}
+  actorScaleGroupChartData: {fileID: 114295251950094089, guid: b6ec5285e142deb4b99e359bd2fd67a9, type: 2}
+  actorAttachNodeGroupChartData: {fileID: 114599526849733895, guid: baa1a53111dc8ce4f94859c895656e4d, type: 2}
+  actorNPCChartData: {fileID: 114511403827480033, guid: 06fe0748250164342915e6771acad76f, type: 2}
+  actorBodyPartNodeChartData: {fileID: 114130089471921039, guid: 0e2b4d80608e8d0409182dda69b892e7, type: 2}
+  worldSurfaceChartData: {fileID: 114051155596033979, guid: 75d4eb71862692640a6003f7afd74270, type: 2}
+  craftableItemChartData: {fileID: 114208651823344295, guid: 50c67e9c9e79e2147b8efb9f25d0a981, type: 2}
+  harvestPointChartData: {fileID: 114489839564168560, guid: 72628196625b92c4abf0855a71bfe575, type: 2}
+  calendarChartData: {fileID: 114263121655170741, guid: f109ebc93827ad041a74158916a4d25a, type: 2}
+  networkedObjectsChartData: {fileID: 114623570345903961, guid: 44718c2e3117dda419fd4ced29bbb3ea, type: 2}
+  questChartData: {fileID: 114607366052476662, guid: 393221ce869ac974795cf2794ab0c4bd, type: 2}
+  objectiveChartData: {fileID: 114831453012085182, guid: e0ae1cba04462154589c0ee8de07d296, type: 2}
+  taskChartData: {fileID: 114558728954980218, guid: 8753f7cf720ac4944be4fa3b2bb0fbe7, type: 2}
+  interactableChartData: {fileID: 114477539775436834, guid: 78b773a7c9e5f1c488f707034fa7dcf4, type: 2}
+  questNpcDataChartData: {fileID: 114286150619208610, guid: 05b3cada35edbb140a9468c6b8c2b3aa, type: 2}
+  bundleIDChartData: {fileID: 114356276558925036, guid: 23bdb26c5a01ad741b5b5254c70e8b06, type: 2}
+  bundlePackChartData: {fileID: 114830476153841329, guid: f6439babd9ccba54c9146162d3a625e6, type: 2}
+  shopContentChartData: {fileID: 114187142851094023, guid: 57a397e0f6a051644b5dda157bfa0954, type: 2}
+  shopChartData: {fileID: 114616380874871642, guid: 0d4e3523416715f4bb3772afe42ed393, type: 2}
+  lootChartData: {fileID: 114672812160463446, guid: 794709c0b78febe4aaf9a9945656e68b, type: 2}
+  audioChartData: {fileID: 114222141427976817, guid: 711fa1d83907aa248b3e0b697668cb1a, type: 2}
+  dialogChartData: {fileID: 114978175278296205, guid: e203147d94fbcc44b8b9d8b0e3536730, type: 2}

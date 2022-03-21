@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ab8152a5cb66940889faa73ec2fa5a, type: 3}
+  m_Name: ButtonColorSet_Gray
+  m_EditorClassIdentifier:
+  onNormalBGColor: {r: 0.61960787, g: 0.61960787, b: 0.61960787, a: 1}
+  onNormalIconColor1: {r: 0, g: 0, b: 0, a: 1}
+  onNormalIconColor2: {r: 0.61960787, g: 0.61960787, b: 0.61960787, a: 1}
+  onNormalTextColor: {r: 0, g: 0, b: 0, a: 1}
+  onHighlightedBGColor: {r: 0.8000001, g: 0.8000001, b: 0.8000001, a: 1}
+  onHighlightedIconColor1: {r: 0, g: 0, b: 0, a: 1}
+  onHighlightedIconColor2: {r: 0.8000001, g: 0.8000001, b: 0.8000001, a: 1}
+  onHighlightedTextColor: {r: 0, g: 0, b: 0, a: 1}
+  onDisabledBGColor: {r: 0.2392157, g: 0.2392157, b: 0.2392157, a: 1}
+  onDisabledIconColor1: {r: 0.33333334, g: 0.33333334, b: 0.33333334, a: 1}
+  onDisabledIconColor2: {r: 0.2392157, g: 0.2392157, b: 0.2392157, a: 1}
+  onDisabledTextColor: {r: 0.33333334, g: 0.33333334, b: 0.33333334, a: 1}
+  offNormalBGColor: {r: 0.61960787, g: 0.61960787, b: 0.61960787, a: 1}
+  offNormalIconColor1: {r: 0, g: 0, b: 0, a: 1}
+  offNormalIconColor2: {r: 0.61960787, g: 0.61960787, b: 0.61960787, a: 1}
+  offNormalTextColor: {r: 0, g: 0, b: 0, a: 1}
+  offHighlightedBGColor: {r: 0.8000001, g: 0.8000001, b: 0.8000001, a: 1}
+  offHighlightedIconColor1: {r: 0, g: 0, b: 0, a: 1}
+  offHighlightedIconColor2: {r: 0.8000001, g: 0.8000001, b: 0.8000001, a: 1}
+  offHighlightedTextColor: {r: 0, g: 0, b: 0, a: 1}
+  offDisabledBGColor: {r: 0.2392157, g: 0.2392157, b: 0.2392157, a: 1}
+  offDisabledIconColor1: {r: 0.33333334, g: 0.33333334, b: 0.33333334, a: 1}
+  offDisabledIconColor2: {r: 0.2392157, g: 0.2392157, b: 0.2392157, a: 1}
+  offDisabledTextColor: {r: 0.33333334, g: 0.33333334, b: 0.33333334, a: 1}
+  scale: 0.95
+  rotationOffset: 5
+  animationDuration: 0.25

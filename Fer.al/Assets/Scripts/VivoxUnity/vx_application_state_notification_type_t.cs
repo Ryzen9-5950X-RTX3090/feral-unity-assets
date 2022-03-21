@@ -1,0 +1,6 @@
+public enum vx_application_state_notification_type_t
+{
+	vx_application_state_notification_type_before_background,
+	vx_application_state_notification_type_after_foreground,
+	vx_application_state_notification_type_periodic_background_idle
+}

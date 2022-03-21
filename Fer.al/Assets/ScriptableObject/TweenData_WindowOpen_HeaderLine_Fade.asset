@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dedf46f90c675448be09492c6642827, type: 3}
+  m_Name: TweenData_WindowOpen_HeaderLine_Fade
+  m_EditorClassIdentifier:
+  autoPlay: 0
+  animationType: 3
+  duration: 0.25
+  delay: 0.25
+  easeType: 7
+  customEaseCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  loops: 0
+  loopType: 0
+  ignoreTimeScale: 1
+  relative: 0
+  autokill: 0
+  from: 1
+  giveStartValue: 0
+  setToStartValueOnCreate: 1
+  vec3Value: {x: 0, y: 1, z: 1}
+  vec3ValueStart: {x: 0, y: 0, z: 0}
+  floatValue: 0
+  floatValueStart: 0
+  colorValue: {r: 0, g: 0, b: 0, a: 0}
+  colorValueStart: {r: 0, g: 0, b: 0, a: 0}
+  extraUseSharedMaterial: 1
+  extraPropertyName:
+  snapping: 0
+  rotateMode: 0
+  local: 1

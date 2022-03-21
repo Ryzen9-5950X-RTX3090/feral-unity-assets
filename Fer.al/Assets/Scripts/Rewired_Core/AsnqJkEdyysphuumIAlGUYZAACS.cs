@@ -1,0 +1,25 @@
+internal enum AsnqJkEdyysphuumIAlGUYZAACS
+{
+	PoBZZNoYGVGuWkUBxQqhGBhFqWy,
+	LsviGFlenjiiJgBnIozjbXdXIHuZ,
+	ZYobZbZutyXeZvtJuXSmTNewJSm,
+	YDGTNvMzzDbOYiocrEbsddOlzpAU,
+	HVcyUjStGKdHFHDPLIsvFumgfktB,
+	YVUWbrgKoRuuyPAJvMpIgRYnbRo,
+	XuMchdBWjhxMMUbhQYoGfpzuoEPc,
+	xAomvonipbmXpporXoNBoOdfStq,
+	PVgcydSbNDROAuQJZlzSxFwdtoZ,
+	ViTceGKRMmEXfbfgajyuljTeLSLQ,
+	JHzUZUsFQTvSmWjmIewXSnYsiSq,
+	DkzZSLIMLkAFRAUSAOhvHTpAhRJF,
+	aHefLwwPIpWViAAjcVvXmSMgoGW,
+	xYJUPntwelkjljNzwSJEfEXvMLe,
+	MOaHuOgVnpEAGGGmqeruGAkIDtZ,
+	qPgKcOpWebBLWJNBXEwUamnXJCmb,
+	JJzGnpgSDGuPgRZtJieJmgCoylG,
+	KWbURerlOyfpiizKPSwjxmDCsTY,
+	QgBsGyniDKgiaGHebqgihbYAjUgE,
+	rkemDQMgJBpFSYGcyWNpspKkJhk,
+	bATxSROMIoaXRpYtWrjduMjqZWT,
+	YRkJTiBDmJVjYKGixVntAEjqaFG
+}

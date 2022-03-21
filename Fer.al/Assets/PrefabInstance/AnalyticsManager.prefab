@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1418744667953515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4874221612542561}
+  - component: {fileID: 114990158792517164}
+  m_Layer: 0
+  m_Name: AnalyticsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4874221612542561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418744667953515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114990158792517164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418744667953515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58caa20df9bf2945bd06e62bcf409e0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  debugAlwaysVerboseOnDevice: 0
+  firehoseDev:
+    accessKey:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 77004d00c5000900de00bf009200
+      hiddenChars: 360006008c0048008b00fd00de004400050088004f009400ee00c10034000f0096005c009500f700
+      inited: 1
+      fakeValue: AKIAUBL3HMFJQSCBSUKH
+      fakeValueActive: 1
+    secretKey:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 9a00c8009600510036005e00d800
+      hiddenChars: f2009f00a600270058002700ae00eb00b100d10062007d002a00bf00ab00b200c100230043001200ac00d8008700e400170046001f008b00e3009800f3000b0078006900b200f900ad00d90001000100
+      inited: 1
+      fakeValue: hW0vnyvqyG3Ktg1zWruLtBOrFpASyPeZN7jceOP7
+      fakeValueActive: 1
+    regionName:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 500062006400fe00040027004c00
+      hiddenChars: 25001100490089006100540038007d005000
+      inited: 1
+      fakeValue: us-west-2
+      fakeValueActive: 1
+    streamName:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 6d002a00b300b8007e00c200d100
+      hiddenChars: 0b004f00c100d9001200ec00b50008005c009d00dc001f00b600b000
+      inited: 1
+      fakeValue: feral.dev.data
+      fakeValueActive: 1
+  firehoseStage:
+    accessKey:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 2300120050005f00fd00c100ac00
+      hiddenChars: 6200590019001e00a8008300e00010005a001d001900b7009900ff006100560000001e00b5008200
+      inited: 1
+      fakeValue: AKIAUBL3HMFJXSBDPAHC
+      fakeValueActive: 1
+    secretKey:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 3a00c3009500b90022006a009000
+      hiddenChars: 0f00ba00c600d70048001200e70052008500fb00df0009005200d70048009400c100d3000d003800fb006b008000fa00d50073005a00c2005500a900a700fb0016003200c10068008500c1008c006000
+      inited: 1
+      fakeValue: 5ySnjxwhFnf+8GrWTj/RkQColQ0Roj2B4XQRFT5B
+      fakeValueActive: 1
+    regionName:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 6c003e004500ed00f30023001700
+      hiddenChars: 19004d0068009a0096005000630041000c00
+      inited: 1
+      fakeValue: us-west-2
+      fakeValueActive: 1
+    streamName:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 2c006800d800dd001e0008001800
+      hiddenChars: 4a000d00aa00bc00720026006b0058000900bf00b80030006c00790058000900
+      inited: 1
+      fakeValue: feral.stage.data
+      fakeValueActive: 1
+  firehoseProd:
+    accessKey:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: ed008e00d200bc007d003c006d00
+      hiddenChars: ac00c5009b00fd0028007e002100de00c6009f00fa00370008002e00d800cc0083008b003f007f00
+      inited: 1
+      fakeValue: AKIAUBL3HMFJ4C5BQ7BC
+      fakeValueActive: 1
+    secretKey:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: bf00f5002500b800170033002900
+      hiddenChars: ce00be006900f50027005a007900f00090007c00db0076004b001d00de00c3007700c800520075006000f800b9005f00cb007300410006008600c4005d00d60043005a007f00f400b7007700df002700
+      inited: 1
+      fakeValue: qKLM0iPOeYcax4a6RpEFIGLzsdr/91xnTiVKBRg0
+      fakeValueActive: 1
+    regionName:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: 5600fe004b00e000a000a300c900
+      hiddenChars: 23008d0066009700c500d000bd007b00cc00
+      inited: 1
+      fakeValue: us-west-2
+      fakeValueActive: 1
+    streamName:
+      currentCryptoKey:
+      hiddenValue:
+      cryptoKey: d500bd00de0099006800ec000900
+      hiddenChars: b300d800ac00f8000400c2007900a700d200ba00b7000c008d007d00b400
+      inited: 1
+      fakeValue: feral.prod.data
+      fakeValueActive: 1
+  _randomUUIDSaveVar:
+    currentCryptoKey:
+    hiddenValue:
+    cryptoKey: f600a20001008400ee008c000c00
+    hiddenChars: 9700cc006000e8009700f80065009500d1002c00f6008f00e20068009900cf005400d100a700c800
+    inited: 1
+    fakeValue: analytics-randomUUID
+    fakeValueActive: 1
+  _firstTimeSaveVar:
+    currentCryptoKey:
+    hiddenValue:
+    cryptoKey: fc00530064006000040068000f00
+    hiddenChars: 9d003d0005000c007d001c0066009f002000490006006d001a007c00880027000d000d006100
+    inited: 1
+    fakeValue: analytics-firsttime
+    fakeValueActive: 1

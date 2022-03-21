@@ -1,0 +1,6 @@
+public enum vx_evt_network_message_type
+{
+	vx_evt_network_message_type_offline_message = 1,
+	vx_evt_network_message_type_admin_message,
+	vx_evt_network_message_type_sessionless_message
+}

@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6afac25ee17f94db59846cd9df4e9a, type: 3}
+  m_Name: FMODStudioSettings
+  m_EditorClassIdentifier:
+  buildPlatforms: 0100000000000000
+  HasSourceProject: 0
+  HasPlatforms: 1
+  sourceProjectPath: ../Feral_FMOD/FeralAudio.fspro
+  sourceBankPath: FMOD_Banks
+  SourceBankPathUnformatted: FMOD_Build
+  AutomaticEventLoading: 1
+  BankLoadType: 0
+  AutomaticSampleLoading: 0
+  EncryptionKey:
+  ImportType: 1
+  TargetAssetPath: BundledAssets/Audio/FMOD
+  TargetBankFolder:
+  LoggingLevel: 0
+  SpeakerModeSettings:
+  - Platform: 2
+    Value: 3
+  SampleRateSettings:
+  - Platform: 1
+    Value: 44100
+  - Platform: 2
+    Value: 0
+  LiveUpdateSettings:
+  - Platform: 1
+    Value: 1
+  - Platform: 2
+    Value: 1
+  OverlaySettings:
+  - Platform: 1
+    Value: 0
+  - Platform: 2
+    Value: 0
+  LoggingSettings:
+  - Platform: 1
+    Value: 1
+  - Platform: 2
+    Value: 0
+  BankDirectorySettings:
+  - Platform: 2
+    Value: Desktop
+  - Platform: 4
+    Value: Mobile
+  - Platform: 3
+    Value: Desktop
+  VirtualChannelSettings:
+  - Platform: 1
+    Value: 1024
+  - Platform: 2
+    Value: 128
+  RealChannelSettings:
+  - Platform: 1
+    Value: 256
+  - Platform: 2
+    Value: 32
+  Plugins: []
+  MasterBanks:
+  - Master Bank
+  Banks:
+  - a_novel_romance
+  - amb_birds_in_flight
+  - amb_cindernoct_vermin
+  - amb_fan_lp
+  - amb_firepit_lp
+  - amb_tents
+  - amb_torch
+  - amb_wood_creaks
+  - ava_dragon
+  - ava_fae
+  - ava_glide_lp
+  - ava_gliding_updraft_whoosh
+  - ava_gliding_updraft_wind
+  - ava_jackalope
+  - ava_kirin
+  - ava_phoenix
+  - ava_senri
+  - ava_shinigami
+  - ava_werewolf
+  - ava_wings_full
+  - ava_wings_jagged
+  - ava_wings_movement_light
+  - ava_wings_small
+  - ava_wings_soft
+  - axo_ocean_lamp
+  - best_sleds
+  - cannon_countdown
+  - captain_cluck
+  - cg_01_whatthehex
+  - cg_02_builders_folly
+  - cg_03_doordye
+  - cg_04_match_3
+  - chaos_from_above
+  - chasing_away_the_blues
+  - city_fera_clothingshop
+  - city_fera_dyeshop
+  - city_fera_lounge
+  - cooking_pot_lp
+  - crowspiracy
+  - crystal_lrge
+  - crystal_sm
+  - daily_quest_teeter
+  - dialogue_test
+  - dry_or_die
+  - dyeshop_cauldron
+  - eg_dig_up
+  - eg_rockflipping
+  - finders_keepers
+  - fountain_fix
+  - garden_of_evil
+  - gliding_updraft_enter_exit
+  - Global
+  - global_cg
+  - global_cutscenes
+  - global_expanse
+  - global_harvest
+  - global_pg
+  - harv_rubyfish
+  - hats_day_out
+  - hocus_pocus
+  - holiday_blizzard_lp
+  - login_account_creation
+  - lost_and_found
+  - lost_shoes
+  - loyal_spectre
+  - magnificent_cleanup
+  - mus_daily_spear_it
+  - mus_decree_board
+  - mus_npc_beast_statue
+  - mus_npc_bellamy_outpost
+  - mus_npc_brody_bro_fu
+  - mus_npc_captain_cluck
+  - mus_npc_citizen
+  - mus_npc_derpy_kobold_kids
+  - mus_npc_johannes
+  - mus_npc_karens_theme
+  - mus_npc_kid
+  - mus_npc_kino
+  - mus_npc_kobold_blood
+  - mus_npc_kobold_brown
+  - mus_npc_kobold_white
+  - mus_npc_komodori
+  - mus_npc_lafayette
+  - mus_npc_lonely
+  - mus_npc_lute_lp
+  - mus_npc_magician
+  - mus_npc_musique_marmite
+  - mus_npc_myrefolk
+  - mus_npc_serial_chiller
+  - mus_npc_striker
+  - mus_npc_the_confused
+  - mus_npc_troop_theme
+  - mus_npc_twiggle
+  - mus_npc_valkeri
+  - mus_npc_valkeri_messenger
+  - mus_npc_valkeri_note
+  - mus_npc_walkman
+  - mus_sanc_twiggle_pear_hut
+  - mus_sanctuary_castle
+  - mus_sanctuary_chateau
+  - mus_sanctuary_cityfera
+  - mus_sanctuary_cottage
+  - mus_sanctuary_frost_fete
+  - mus_sanctuary_green_house
+  - mus_sanctuary_haunted
+  - mus_sanctuary_rose_house
+  - mus_sanctuary_shattered_bay
+  - mus_sanctuary_sunken_thicket
+  - mus_sanctuary_voyager
+  - mus_sanctuary_winter_citadel
+  - mus_sanctuary_woodland_cottage
+  - mus_sky_merchant
+  - npc_brodys_race
+  - npc_kino_cape
+  - npc_kino_magic
+  - npc_picken_idle
+  - old_wounds
+  - onboarding_tutorial
+  - pg_cityfera
+  - pg_shattered_bay
+  - picken_pick_up
+  - pie_in_the_sky
+  - pizza_parkour
+  - poofy_poachers
+  - qge_picklock
+  - quest_dive_ripples
+  - quest_magic_poof
+  - quest_magic_spawn
+  - quest_magic_staff_lp
+  - reality_show_01
+  - sanc_aquarium_bubbles_lp
+  - sanc_balloon_arch
+  - sanc_beehive
+  - sanc_birdcage
+  - sanc_blender_with_fruits
+  - sanc_bubbling_crack
+  - sanc_campfire
+  - sanc_carnivorous_larry
+  - sanc_cauldron
+  - sanc_clock_gears_lp
+  - sanc_epic_kino_figurine
+  - sanc_fire_spits
+  - sanc_fire_toggle_on_off
+  - sanc_fishbowl_bubbles_lp
+  - sanc_fountain_hot_springs
+  - sanc_fountain_koi_pond
+  - sanc_fountain_mud
+  - sanc_fountain_shishi_odoshi
+  - sanc_fountain_spring_clover
+  - sanc_garden_hose
+  - sanc_glow_light
+  - sanc_kino_action_figure
+  - sanc_mirror_haunted
+  - sanc_plasma_light
+  - sanc_popcorn
+  - sanc_shower
+  - sanc_spring_windchime_lp
+  - sanc_treadmill
+  - sanc_tub_bubbles_lp
+  - sanc_window_wraith
+  - sanctuary_fera
+  - sanctuary_ui
+  - seasonal_tea
+  - sfx_amb_pants
+  - sfx_basic_candle
+  - sfx_basic_lamp
+  - sfx_collected_bones
+  - sfx_door_knock
+  - sfx_marmite_active_lp
+  - sfx_sled_lp
+  - sfx_surprise_ghost_skull
+  - shattered_bay_furnitureshop
+  - silent_but_deadly
+  - snowbold_warfare
+  - snowman_explo
+  - sowing_saplings
+  - splash_screen_ducks_sfx
+  - strange_magic
+  - sunken_thicket_uncrafting
+  - the_lonely_snowbold
+  - toboggan_run
+  - treehouse_of_hope
+  - tundra_ghost
+  - twiggle_p_i
+  - twixt_the_vapors
+  - unbound_souls
+  - vox_andrulienne
+  - vox_captain_vivian
+  - vox_citizen_kid
+  - vox_citizen_posh
+  - vox_historian
+  - vox_kino
+  - vox_kobold_kid
+  - vox_kobold_kid_trot
+  - vox_kobold_white_high
+  - vox_kobold_white_low
+  - vox_kobolds_high
+  - vox_kobolds_high_idle_break
+  - vox_kobolds_low
+  - vox_kobolds_low_pushup
+  - vox_kobolds_low_run
+  - vox_kobolds_low_trot
+  - vox_kobolds_low_yoga
+  - vox_komodori_kid
+  - vox_komodori_shady
+  - vox_komodori_teeter
+  - vox_latchkey
+  - vox_miss_marguerite
+  - vox_myrefolk_high
+  - vox_myrefolk_kid
+  - vox_myrefolk_low
+  - vox_recollector
+  - vox_seraphs_karen
+  - vox_sergeant_hawke
+  - vox_shoes
+  - vox_statue
+  - vox_twiggla
+  - vox_twiggles
+  - vox_twiggles_idle_break
+  - vox_valkeri_cael
+  - vox_valkeri_high
+  - vox_valkeri_icarus
+  - vox_valkeri_kid
+  - vox_valkeri_low
+  - vox_valkeri_messenger
+  - vox_vermin
+  - well_wishes
+  - world_blood_tundra
+  - world_city_fera
+  - world_expanse_forest
+  - world_expanse_quest_01
+  - world_s01e01
+  - world_sunken_thicket
+  - world_traders_port
+  - wpn_spear
+  BanksToLoad: []
+  LiveUpdatePort: 9264
+  EnableMemoryTracking: 0
+  AndroidUseOBB: 0
+  MeterChannelOrdering: 0
+  StopEventsOutsideMaxDistance: 0
+  BoltUnitOptionsBuildPending: 0

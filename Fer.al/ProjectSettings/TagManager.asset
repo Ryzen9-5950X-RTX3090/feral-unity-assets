@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  tags:
+  - FxTemporaire
+  - Sanctuary
+  - Terrain
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Actor
+  - PlayerAndCameraCollision
+  - Exclusive_A
+  - Exclusive_B
+  - Exclusive_C
+  - Exclusive_D
+  - Minimap
+  - PlayerCollision
+  - Sanctuary
+  - CoreReset
+  - UI_Recording
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Post
+  - Skybox
+  - Decal
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Particles
+    uniqueID: 1690342673
+    locked: 0

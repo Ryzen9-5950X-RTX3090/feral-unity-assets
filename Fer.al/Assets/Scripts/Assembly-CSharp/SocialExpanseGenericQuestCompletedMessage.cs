@@ -1,0 +1,8 @@
+public class SocialExpanseGenericQuestCompletedMessage : Message
+{
+	public readonly SocialExpanseLinearGenericQuestsCompletionItemComponent socialExpanseQuestCompletionItemComponent;
+
+	public SocialExpanseGenericQuestCompletedMessage(SocialExpanseLinearGenericQuestsCompletionItemComponent inSocialExpanseCompletionItemComponent)
+	{
+	}
+}

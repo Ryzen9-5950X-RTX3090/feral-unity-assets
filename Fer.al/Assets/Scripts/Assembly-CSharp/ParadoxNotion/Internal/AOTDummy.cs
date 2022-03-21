@@ -1,0 +1,1121 @@
+using NodeCanvas.Framework;
+using NodeCanvas.Framework.Internal;
+using NodeCanvas.Tasks.Actions;
+using NodeCanvas.Tasks.Conditions;
+using UnityEngine;
+
+namespace ParadoxNotion.Internal
+{
+	internal class AOTDummy
+	{
+		private object o;
+
+		private BBParameter<bool> NodeCanvas_Framework_BBParameter_System_Boolean;
+
+		private BBParameter<float> NodeCanvas_Framework_BBParameter_System_Single;
+
+		private BBParameter<int> NodeCanvas_Framework_BBParameter_System_Int32;
+
+		private BBParameter<Vector2> NodeCanvas_Framework_BBParameter_UnityEngine_Vector2;
+
+		private BBParameter<Vector3> NodeCanvas_Framework_BBParameter_UnityEngine_Vector3;
+
+		private BBParameter<Vector4> NodeCanvas_Framework_BBParameter_UnityEngine_Vector4;
+
+		private BBParameter<Quaternion> NodeCanvas_Framework_BBParameter_UnityEngine_Quaternion;
+
+		private BBParameter<Keyframe> NodeCanvas_Framework_BBParameter_UnityEngine_Keyframe;
+
+		private BBParameter<Bounds> NodeCanvas_Framework_BBParameter_UnityEngine_Bounds;
+
+		private BBParameter<Color> NodeCanvas_Framework_BBParameter_UnityEngine_Color;
+
+		private BBParameter<Rect> NodeCanvas_Framework_BBParameter_UnityEngine_Rect;
+
+		private BBParameter<ContactPoint> NodeCanvas_Framework_BBParameter_UnityEngine_ContactPoint;
+
+		private BBParameter<ContactPoint2D> NodeCanvas_Framework_BBParameter_UnityEngine_ContactPoint2D;
+
+		private BBParameter<Collision> NodeCanvas_Framework_BBParameter_UnityEngine_Collision;
+
+		private BBParameter<Collision2D> NodeCanvas_Framework_BBParameter_UnityEngine_Collision2D;
+
+		private BBParameter<RaycastHit> NodeCanvas_Framework_BBParameter_UnityEngine_RaycastHit;
+
+		private BBParameter<RaycastHit2D> NodeCanvas_Framework_BBParameter_UnityEngine_RaycastHit2D;
+
+		private BBParameter<Ray> NodeCanvas_Framework_BBParameter_UnityEngine_Ray;
+
+		private BBParameter<Space> NodeCanvas_Framework_BBParameter_UnityEngine_Space;
+
+		private BBParameter<LayerMask> NodeCanvas_Framework_BBParameter_UnityEngine_LayerMask;
+
+		private ExposedParameter<bool> NodeCanvas_Framework_ExposedParameter_System_Boolean;
+
+		private ExposedParameter<float> NodeCanvas_Framework_ExposedParameter_System_Single;
+
+		private ExposedParameter<int> NodeCanvas_Framework_ExposedParameter_System_Int32;
+
+		private ExposedParameter<Vector2> NodeCanvas_Framework_ExposedParameter_UnityEngine_Vector2;
+
+		private ExposedParameter<Vector3> NodeCanvas_Framework_ExposedParameter_UnityEngine_Vector3;
+
+		private ExposedParameter<Vector4> NodeCanvas_Framework_ExposedParameter_UnityEngine_Vector4;
+
+		private ExposedParameter<Quaternion> NodeCanvas_Framework_ExposedParameter_UnityEngine_Quaternion;
+
+		private ExposedParameter<Keyframe> NodeCanvas_Framework_ExposedParameter_UnityEngine_Keyframe;
+
+		private ExposedParameter<Bounds> NodeCanvas_Framework_ExposedParameter_UnityEngine_Bounds;
+
+		private ExposedParameter<Color> NodeCanvas_Framework_ExposedParameter_UnityEngine_Color;
+
+		private ExposedParameter<Rect> NodeCanvas_Framework_ExposedParameter_UnityEngine_Rect;
+
+		private ExposedParameter<ContactPoint> NodeCanvas_Framework_ExposedParameter_UnityEngine_ContactPoint;
+
+		private ExposedParameter<ContactPoint2D> NodeCanvas_Framework_ExposedParameter_UnityEngine_ContactPoint2D;
+
+		private ExposedParameter<Collision> NodeCanvas_Framework_ExposedParameter_UnityEngine_Collision;
+
+		private ExposedParameter<Collision2D> NodeCanvas_Framework_ExposedParameter_UnityEngine_Collision2D;
+
+		private ExposedParameter<RaycastHit> NodeCanvas_Framework_ExposedParameter_UnityEngine_RaycastHit;
+
+		private ExposedParameter<RaycastHit2D> NodeCanvas_Framework_ExposedParameter_UnityEngine_RaycastHit2D;
+
+		private ExposedParameter<Ray> NodeCanvas_Framework_ExposedParameter_UnityEngine_Ray;
+
+		private ExposedParameter<Space> NodeCanvas_Framework_ExposedParameter_UnityEngine_Space;
+
+		private ExposedParameter<LayerMask> NodeCanvas_Framework_ExposedParameter_UnityEngine_LayerMask;
+
+		private Variable<bool> NodeCanvas_Framework_Variable_System_Boolean;
+
+		private Variable<float> NodeCanvas_Framework_Variable_System_Single;
+
+		private Variable<int> NodeCanvas_Framework_Variable_System_Int32;
+
+		private Variable<Vector2> NodeCanvas_Framework_Variable_UnityEngine_Vector2;
+
+		private Variable<Vector3> NodeCanvas_Framework_Variable_UnityEngine_Vector3;
+
+		private Variable<Vector4> NodeCanvas_Framework_Variable_UnityEngine_Vector4;
+
+		private Variable<Quaternion> NodeCanvas_Framework_Variable_UnityEngine_Quaternion;
+
+		private Variable<Keyframe> NodeCanvas_Framework_Variable_UnityEngine_Keyframe;
+
+		private Variable<Bounds> NodeCanvas_Framework_Variable_UnityEngine_Bounds;
+
+		private Variable<Color> NodeCanvas_Framework_Variable_UnityEngine_Color;
+
+		private Variable<Rect> NodeCanvas_Framework_Variable_UnityEngine_Rect;
+
+		private Variable<ContactPoint> NodeCanvas_Framework_Variable_UnityEngine_ContactPoint;
+
+		private Variable<ContactPoint2D> NodeCanvas_Framework_Variable_UnityEngine_ContactPoint2D;
+
+		private Variable<Collision> NodeCanvas_Framework_Variable_UnityEngine_Collision;
+
+		private Variable<Collision2D> NodeCanvas_Framework_Variable_UnityEngine_Collision2D;
+
+		private Variable<RaycastHit> NodeCanvas_Framework_Variable_UnityEngine_RaycastHit;
+
+		private Variable<RaycastHit2D> NodeCanvas_Framework_Variable_UnityEngine_RaycastHit2D;
+
+		private Variable<Ray> NodeCanvas_Framework_Variable_UnityEngine_Ray;
+
+		private Variable<Space> NodeCanvas_Framework_Variable_UnityEngine_Space;
+
+		private Variable<LayerMask> NodeCanvas_Framework_Variable_UnityEngine_LayerMask;
+
+		private ReflectedAction<bool> NodeCanvas_Framework_Internal_ReflectedAction_System_Boolean;
+
+		private ReflectedAction<float> NodeCanvas_Framework_Internal_ReflectedAction_System_Single;
+
+		private ReflectedAction<int> NodeCanvas_Framework_Internal_ReflectedAction_System_Int32;
+
+		private ReflectedAction<Vector2> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector2;
+
+		private ReflectedAction<Vector3> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector3;
+
+		private ReflectedAction<Vector4> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector4;
+
+		private ReflectedAction<Quaternion> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Quaternion;
+
+		private ReflectedAction<Keyframe> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Keyframe;
+
+		private ReflectedAction<Bounds> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Bounds;
+
+		private ReflectedAction<Color> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Color;
+
+		private ReflectedAction<Rect> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Rect;
+
+		private ReflectedAction<ContactPoint> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_ContactPoint;
+
+		private ReflectedAction<ContactPoint2D> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_ContactPoint2D;
+
+		private ReflectedAction<Collision> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Collision;
+
+		private ReflectedAction<Collision2D> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Collision2D;
+
+		private ReflectedAction<RaycastHit> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_RaycastHit;
+
+		private ReflectedAction<RaycastHit2D> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_RaycastHit2D;
+
+		private ReflectedAction<Ray> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Ray;
+
+		private ReflectedAction<Space> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Space;
+
+		private ReflectedAction<LayerMask> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_LayerMask;
+
+		private ReflectedFunction<bool> NodeCanvas_Framework_Internal_ReflectedFunction_System_Boolean;
+
+		private ReflectedFunction<float> NodeCanvas_Framework_Internal_ReflectedFunction_System_Single;
+
+		private ReflectedFunction<int> NodeCanvas_Framework_Internal_ReflectedFunction_System_Int32;
+
+		private ReflectedFunction<Vector2> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector2;
+
+		private ReflectedFunction<Vector3> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector3;
+
+		private ReflectedFunction<Vector4> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector4;
+
+		private ReflectedFunction<Quaternion> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Quaternion;
+
+		private ReflectedFunction<Keyframe> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Keyframe;
+
+		private ReflectedFunction<Bounds> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Bounds;
+
+		private ReflectedFunction<Color> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Color;
+
+		private ReflectedFunction<Rect> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Rect;
+
+		private ReflectedFunction<ContactPoint> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_ContactPoint;
+
+		private ReflectedFunction<ContactPoint2D> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_ContactPoint2D;
+
+		private ReflectedFunction<Collision> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Collision;
+
+		private ReflectedFunction<Collision2D> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Collision2D;
+
+		private ReflectedFunction<RaycastHit> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_RaycastHit;
+
+		private ReflectedFunction<RaycastHit2D> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_RaycastHit2D;
+
+		private ReflectedFunction<Ray> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Ray;
+
+		private ReflectedFunction<Space> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Space;
+
+		private ReflectedFunction<LayerMask> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_LayerMask;
+
+		private AddElementToDictionary<bool> NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Boolean;
+
+		private AddElementToDictionary<float> NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Single;
+
+		private AddElementToDictionary<int> NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Int32;
+
+		private AddElementToDictionary<Vector2> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector2;
+
+		private AddElementToDictionary<Vector3> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector3;
+
+		private AddElementToDictionary<Vector4> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector4;
+
+		private AddElementToDictionary<Quaternion> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Quaternion;
+
+		private AddElementToDictionary<Keyframe> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Keyframe;
+
+		private AddElementToDictionary<Bounds> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Bounds;
+
+		private AddElementToDictionary<Color> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Color;
+
+		private AddElementToDictionary<Rect> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Rect;
+
+		private AddElementToDictionary<ContactPoint> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_ContactPoint;
+
+		private AddElementToDictionary<ContactPoint2D> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_ContactPoint2D;
+
+		private AddElementToDictionary<Collision> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Collision;
+
+		private AddElementToDictionary<Collision2D> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Collision2D;
+
+		private AddElementToDictionary<RaycastHit> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_RaycastHit;
+
+		private AddElementToDictionary<RaycastHit2D> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_RaycastHit2D;
+
+		private AddElementToDictionary<Ray> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Ray;
+
+		private AddElementToDictionary<Space> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Space;
+
+		private AddElementToDictionary<LayerMask> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_LayerMask;
+
+		private AddElementToList<bool> NodeCanvas_Tasks_Actions_AddElementToList_System_Boolean;
+
+		private AddElementToList<float> NodeCanvas_Tasks_Actions_AddElementToList_System_Single;
+
+		private AddElementToList<int> NodeCanvas_Tasks_Actions_AddElementToList_System_Int32;
+
+		private AddElementToList<Vector2> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector2;
+
+		private AddElementToList<Vector3> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector3;
+
+		private AddElementToList<Vector4> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector4;
+
+		private AddElementToList<Quaternion> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Quaternion;
+
+		private AddElementToList<Keyframe> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Keyframe;
+
+		private AddElementToList<Bounds> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Bounds;
+
+		private AddElementToList<Color> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Color;
+
+		private AddElementToList<Rect> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Rect;
+
+		private AddElementToList<ContactPoint> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_ContactPoint;
+
+		private AddElementToList<ContactPoint2D> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_ContactPoint2D;
+
+		private AddElementToList<Collision> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Collision;
+
+		private AddElementToList<Collision2D> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Collision2D;
+
+		private AddElementToList<RaycastHit> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_RaycastHit;
+
+		private AddElementToList<RaycastHit2D> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_RaycastHit2D;
+
+		private AddElementToList<Ray> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Ray;
+
+		private AddElementToList<Space> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Space;
+
+		private AddElementToList<LayerMask> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_LayerMask;
+
+		private GetDictionaryElement<bool> NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Boolean;
+
+		private GetDictionaryElement<float> NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Single;
+
+		private GetDictionaryElement<int> NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Int32;
+
+		private GetDictionaryElement<Vector2> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector2;
+
+		private GetDictionaryElement<Vector3> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector3;
+
+		private GetDictionaryElement<Vector4> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector4;
+
+		private GetDictionaryElement<Quaternion> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Quaternion;
+
+		private GetDictionaryElement<Keyframe> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Keyframe;
+
+		private GetDictionaryElement<Bounds> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Bounds;
+
+		private GetDictionaryElement<Color> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Color;
+
+		private GetDictionaryElement<Rect> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Rect;
+
+		private GetDictionaryElement<ContactPoint> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_ContactPoint;
+
+		private GetDictionaryElement<ContactPoint2D> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_ContactPoint2D;
+
+		private GetDictionaryElement<Collision> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Collision;
+
+		private GetDictionaryElement<Collision2D> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Collision2D;
+
+		private GetDictionaryElement<RaycastHit> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_RaycastHit;
+
+		private GetDictionaryElement<RaycastHit2D> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_RaycastHit2D;
+
+		private GetDictionaryElement<Ray> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Ray;
+
+		private GetDictionaryElement<Space> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Space;
+
+		private GetDictionaryElement<LayerMask> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_LayerMask;
+
+		private GetIndexOfElement<bool> NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Boolean;
+
+		private GetIndexOfElement<float> NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Single;
+
+		private GetIndexOfElement<int> NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Int32;
+
+		private GetIndexOfElement<Vector2> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector2;
+
+		private GetIndexOfElement<Vector3> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector3;
+
+		private GetIndexOfElement<Vector4> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector4;
+
+		private GetIndexOfElement<Quaternion> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Quaternion;
+
+		private GetIndexOfElement<Keyframe> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Keyframe;
+
+		private GetIndexOfElement<Bounds> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Bounds;
+
+		private GetIndexOfElement<Color> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Color;
+
+		private GetIndexOfElement<Rect> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Rect;
+
+		private GetIndexOfElement<ContactPoint> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_ContactPoint;
+
+		private GetIndexOfElement<ContactPoint2D> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_ContactPoint2D;
+
+		private GetIndexOfElement<Collision> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Collision;
+
+		private GetIndexOfElement<Collision2D> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Collision2D;
+
+		private GetIndexOfElement<RaycastHit> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_RaycastHit;
+
+		private GetIndexOfElement<RaycastHit2D> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_RaycastHit2D;
+
+		private GetIndexOfElement<Ray> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Ray;
+
+		private GetIndexOfElement<Space> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Space;
+
+		private GetIndexOfElement<LayerMask> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_LayerMask;
+
+		private InsertElementToList<bool> NodeCanvas_Tasks_Actions_InsertElementToList_System_Boolean;
+
+		private InsertElementToList<float> NodeCanvas_Tasks_Actions_InsertElementToList_System_Single;
+
+		private InsertElementToList<int> NodeCanvas_Tasks_Actions_InsertElementToList_System_Int32;
+
+		private InsertElementToList<Vector2> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector2;
+
+		private InsertElementToList<Vector3> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector3;
+
+		private InsertElementToList<Vector4> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector4;
+
+		private InsertElementToList<Quaternion> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Quaternion;
+
+		private InsertElementToList<Keyframe> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Keyframe;
+
+		private InsertElementToList<Bounds> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Bounds;
+
+		private InsertElementToList<Color> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Color;
+
+		private InsertElementToList<Rect> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Rect;
+
+		private InsertElementToList<ContactPoint> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_ContactPoint;
+
+		private InsertElementToList<ContactPoint2D> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_ContactPoint2D;
+
+		private InsertElementToList<Collision> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Collision;
+
+		private InsertElementToList<Collision2D> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Collision2D;
+
+		private InsertElementToList<RaycastHit> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_RaycastHit;
+
+		private InsertElementToList<RaycastHit2D> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_RaycastHit2D;
+
+		private InsertElementToList<Ray> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Ray;
+
+		private InsertElementToList<Space> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Space;
+
+		private InsertElementToList<LayerMask> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_LayerMask;
+
+		private PickListElement<bool> NodeCanvas_Tasks_Actions_PickListElement_System_Boolean;
+
+		private PickListElement<float> NodeCanvas_Tasks_Actions_PickListElement_System_Single;
+
+		private PickListElement<int> NodeCanvas_Tasks_Actions_PickListElement_System_Int32;
+
+		private PickListElement<Vector2> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector2;
+
+		private PickListElement<Vector3> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector3;
+
+		private PickListElement<Vector4> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector4;
+
+		private PickListElement<Quaternion> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Quaternion;
+
+		private PickListElement<Keyframe> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Keyframe;
+
+		private PickListElement<Bounds> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Bounds;
+
+		private PickListElement<Color> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Color;
+
+		private PickListElement<Rect> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Rect;
+
+		private PickListElement<ContactPoint> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_ContactPoint;
+
+		private PickListElement<ContactPoint2D> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_ContactPoint2D;
+
+		private PickListElement<Collision> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Collision;
+
+		private PickListElement<Collision2D> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Collision2D;
+
+		private PickListElement<RaycastHit> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_RaycastHit;
+
+		private PickListElement<RaycastHit2D> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_RaycastHit2D;
+
+		private PickListElement<Ray> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Ray;
+
+		private PickListElement<Space> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Space;
+
+		private PickListElement<LayerMask> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_LayerMask;
+
+		private PickRandomListElement<bool> NodeCanvas_Tasks_Actions_PickRandomListElement_System_Boolean;
+
+		private PickRandomListElement<float> NodeCanvas_Tasks_Actions_PickRandomListElement_System_Single;
+
+		private PickRandomListElement<int> NodeCanvas_Tasks_Actions_PickRandomListElement_System_Int32;
+
+		private PickRandomListElement<Vector2> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector2;
+
+		private PickRandomListElement<Vector3> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector3;
+
+		private PickRandomListElement<Vector4> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector4;
+
+		private PickRandomListElement<Quaternion> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Quaternion;
+
+		private PickRandomListElement<Keyframe> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Keyframe;
+
+		private PickRandomListElement<Bounds> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Bounds;
+
+		private PickRandomListElement<Color> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Color;
+
+		private PickRandomListElement<Rect> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Rect;
+
+		private PickRandomListElement<ContactPoint> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_ContactPoint;
+
+		private PickRandomListElement<ContactPoint2D> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_ContactPoint2D;
+
+		private PickRandomListElement<Collision> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Collision;
+
+		private PickRandomListElement<Collision2D> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Collision2D;
+
+		private PickRandomListElement<RaycastHit> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_RaycastHit;
+
+		private PickRandomListElement<RaycastHit2D> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_RaycastHit2D;
+
+		private PickRandomListElement<Ray> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Ray;
+
+		private PickRandomListElement<Space> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Space;
+
+		private PickRandomListElement<LayerMask> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_LayerMask;
+
+		private RemoveElementFromList<bool> NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Boolean;
+
+		private RemoveElementFromList<float> NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Single;
+
+		private RemoveElementFromList<int> NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Int32;
+
+		private RemoveElementFromList<Vector2> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector2;
+
+		private RemoveElementFromList<Vector3> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector3;
+
+		private RemoveElementFromList<Vector4> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector4;
+
+		private RemoveElementFromList<Quaternion> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Quaternion;
+
+		private RemoveElementFromList<Keyframe> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Keyframe;
+
+		private RemoveElementFromList<Bounds> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Bounds;
+
+		private RemoveElementFromList<Color> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Color;
+
+		private RemoveElementFromList<Rect> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Rect;
+
+		private RemoveElementFromList<ContactPoint> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_ContactPoint;
+
+		private RemoveElementFromList<ContactPoint2D> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_ContactPoint2D;
+
+		private RemoveElementFromList<Collision> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Collision;
+
+		private RemoveElementFromList<Collision2D> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Collision2D;
+
+		private RemoveElementFromList<RaycastHit> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_RaycastHit;
+
+		private RemoveElementFromList<RaycastHit2D> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_RaycastHit2D;
+
+		private RemoveElementFromList<Ray> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Ray;
+
+		private RemoveElementFromList<Space> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Space;
+
+		private RemoveElementFromList<LayerMask> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_LayerMask;
+
+		private SendEvent<bool> NodeCanvas_Tasks_Actions_SendEvent_System_Boolean;
+
+		private SendEvent<float> NodeCanvas_Tasks_Actions_SendEvent_System_Single;
+
+		private SendEvent<int> NodeCanvas_Tasks_Actions_SendEvent_System_Int32;
+
+		private SendEvent<Vector2> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector2;
+
+		private SendEvent<Vector3> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector3;
+
+		private SendEvent<Vector4> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector4;
+
+		private SendEvent<Quaternion> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Quaternion;
+
+		private SendEvent<Keyframe> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Keyframe;
+
+		private SendEvent<Bounds> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Bounds;
+
+		private SendEvent<Color> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Color;
+
+		private SendEvent<Rect> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Rect;
+
+		private SendEvent<ContactPoint> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_ContactPoint;
+
+		private SendEvent<ContactPoint2D> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_ContactPoint2D;
+
+		private SendEvent<Collision> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Collision;
+
+		private SendEvent<Collision2D> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Collision2D;
+
+		private SendEvent<RaycastHit> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_RaycastHit;
+
+		private SendEvent<RaycastHit2D> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_RaycastHit2D;
+
+		private SendEvent<Ray> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Ray;
+
+		private SendEvent<Space> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Space;
+
+		private SendEvent<LayerMask> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_LayerMask;
+
+		private SendEventToObjects<bool> NodeCanvas_Tasks_Actions_SendEventToObjects_System_Boolean;
+
+		private SendEventToObjects<float> NodeCanvas_Tasks_Actions_SendEventToObjects_System_Single;
+
+		private SendEventToObjects<int> NodeCanvas_Tasks_Actions_SendEventToObjects_System_Int32;
+
+		private SendEventToObjects<Vector2> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector2;
+
+		private SendEventToObjects<Vector3> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector3;
+
+		private SendEventToObjects<Vector4> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector4;
+
+		private SendEventToObjects<Quaternion> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Quaternion;
+
+		private SendEventToObjects<Keyframe> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Keyframe;
+
+		private SendEventToObjects<Bounds> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Bounds;
+
+		private SendEventToObjects<Color> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Color;
+
+		private SendEventToObjects<Rect> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Rect;
+
+		private SendEventToObjects<ContactPoint> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_ContactPoint;
+
+		private SendEventToObjects<ContactPoint2D> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_ContactPoint2D;
+
+		private SendEventToObjects<Collision> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Collision;
+
+		private SendEventToObjects<Collision2D> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Collision2D;
+
+		private SendEventToObjects<RaycastHit> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_RaycastHit;
+
+		private SendEventToObjects<RaycastHit2D> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_RaycastHit2D;
+
+		private SendEventToObjects<Ray> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Ray;
+
+		private SendEventToObjects<Space> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Space;
+
+		private SendEventToObjects<LayerMask> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_LayerMask;
+
+		private SendMessage<bool> NodeCanvas_Tasks_Actions_SendMessage_System_Boolean;
+
+		private SendMessage<float> NodeCanvas_Tasks_Actions_SendMessage_System_Single;
+
+		private SendMessage<int> NodeCanvas_Tasks_Actions_SendMessage_System_Int32;
+
+		private SendMessage<Vector2> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector2;
+
+		private SendMessage<Vector3> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector3;
+
+		private SendMessage<Vector4> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector4;
+
+		private SendMessage<Quaternion> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Quaternion;
+
+		private SendMessage<Keyframe> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Keyframe;
+
+		private SendMessage<Bounds> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Bounds;
+
+		private SendMessage<Color> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Color;
+
+		private SendMessage<Rect> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Rect;
+
+		private SendMessage<ContactPoint> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_ContactPoint;
+
+		private SendMessage<ContactPoint2D> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_ContactPoint2D;
+
+		private SendMessage<Collision> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Collision;
+
+		private SendMessage<Collision2D> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Collision2D;
+
+		private SendMessage<RaycastHit> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_RaycastHit;
+
+		private SendMessage<RaycastHit2D> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_RaycastHit2D;
+
+		private SendMessage<Ray> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Ray;
+
+		private SendMessage<Space> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Space;
+
+		private SendMessage<LayerMask> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_LayerMask;
+
+		private SetListElement<bool> NodeCanvas_Tasks_Actions_SetListElement_System_Boolean;
+
+		private SetListElement<float> NodeCanvas_Tasks_Actions_SetListElement_System_Single;
+
+		private SetListElement<int> NodeCanvas_Tasks_Actions_SetListElement_System_Int32;
+
+		private SetListElement<Vector2> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector2;
+
+		private SetListElement<Vector3> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector3;
+
+		private SetListElement<Vector4> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector4;
+
+		private SetListElement<Quaternion> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Quaternion;
+
+		private SetListElement<Keyframe> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Keyframe;
+
+		private SetListElement<Bounds> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Bounds;
+
+		private SetListElement<Color> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Color;
+
+		private SetListElement<Rect> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Rect;
+
+		private SetListElement<ContactPoint> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_ContactPoint;
+
+		private SetListElement<ContactPoint2D> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_ContactPoint2D;
+
+		private SetListElement<Collision> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Collision;
+
+		private SetListElement<Collision2D> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Collision2D;
+
+		private SetListElement<RaycastHit> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_RaycastHit;
+
+		private SetListElement<RaycastHit2D> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_RaycastHit2D;
+
+		private SetListElement<Ray> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Ray;
+
+		private SetListElement<Space> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Space;
+
+		private SetListElement<LayerMask> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_LayerMask;
+
+		private SetVariable<bool> NodeCanvas_Tasks_Actions_SetVariable_System_Boolean;
+
+		private SetVariable<float> NodeCanvas_Tasks_Actions_SetVariable_System_Single;
+
+		private SetVariable<int> NodeCanvas_Tasks_Actions_SetVariable_System_Int32;
+
+		private SetVariable<Vector2> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector2;
+
+		private SetVariable<Vector3> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector3;
+
+		private SetVariable<Vector4> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector4;
+
+		private SetVariable<Quaternion> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Quaternion;
+
+		private SetVariable<Keyframe> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Keyframe;
+
+		private SetVariable<Bounds> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Bounds;
+
+		private SetVariable<Color> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Color;
+
+		private SetVariable<Rect> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Rect;
+
+		private SetVariable<ContactPoint> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_ContactPoint;
+
+		private SetVariable<ContactPoint2D> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_ContactPoint2D;
+
+		private SetVariable<Collision> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Collision;
+
+		private SetVariable<Collision2D> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Collision2D;
+
+		private SetVariable<RaycastHit> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_RaycastHit;
+
+		private SetVariable<RaycastHit2D> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_RaycastHit2D;
+
+		private SetVariable<Ray> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Ray;
+
+		private SetVariable<Space> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Space;
+
+		private SetVariable<LayerMask> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_LayerMask;
+
+		private CheckCSharpEvent<bool> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Boolean;
+
+		private CheckCSharpEvent<float> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Single;
+
+		private CheckCSharpEvent<int> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Int32;
+
+		private CheckCSharpEvent<Vector2> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector2;
+
+		private CheckCSharpEvent<Vector3> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector3;
+
+		private CheckCSharpEvent<Vector4> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector4;
+
+		private CheckCSharpEvent<Quaternion> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Quaternion;
+
+		private CheckCSharpEvent<Keyframe> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Keyframe;
+
+		private CheckCSharpEvent<Bounds> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Bounds;
+
+		private CheckCSharpEvent<Color> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Color;
+
+		private CheckCSharpEvent<Rect> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Rect;
+
+		private CheckCSharpEvent<ContactPoint> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_ContactPoint;
+
+		private CheckCSharpEvent<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_ContactPoint2D;
+
+		private CheckCSharpEvent<Collision> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Collision;
+
+		private CheckCSharpEvent<Collision2D> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Collision2D;
+
+		private CheckCSharpEvent<RaycastHit> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_RaycastHit;
+
+		private CheckCSharpEvent<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_RaycastHit2D;
+
+		private CheckCSharpEvent<Ray> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Ray;
+
+		private CheckCSharpEvent<Space> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Space;
+
+		private CheckCSharpEvent<LayerMask> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_LayerMask;
+
+		private CheckCSharpEventValue<bool> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Boolean;
+
+		private CheckCSharpEventValue<float> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Single;
+
+		private CheckCSharpEventValue<int> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Int32;
+
+		private CheckCSharpEventValue<Vector2> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector2;
+
+		private CheckCSharpEventValue<Vector3> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector3;
+
+		private CheckCSharpEventValue<Vector4> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector4;
+
+		private CheckCSharpEventValue<Quaternion> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Quaternion;
+
+		private CheckCSharpEventValue<Keyframe> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Keyframe;
+
+		private CheckCSharpEventValue<Bounds> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Bounds;
+
+		private CheckCSharpEventValue<Color> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Color;
+
+		private CheckCSharpEventValue<Rect> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Rect;
+
+		private CheckCSharpEventValue<ContactPoint> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_ContactPoint;
+
+		private CheckCSharpEventValue<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_ContactPoint2D;
+
+		private CheckCSharpEventValue<Collision> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Collision;
+
+		private CheckCSharpEventValue<Collision2D> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Collision2D;
+
+		private CheckCSharpEventValue<RaycastHit> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_RaycastHit;
+
+		private CheckCSharpEventValue<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_RaycastHit2D;
+
+		private CheckCSharpEventValue<Ray> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Ray;
+
+		private CheckCSharpEventValue<Space> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Space;
+
+		private CheckCSharpEventValue<LayerMask> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_LayerMask;
+
+		private CheckEvent<bool> NodeCanvas_Tasks_Conditions_CheckEvent_System_Boolean;
+
+		private CheckEvent<float> NodeCanvas_Tasks_Conditions_CheckEvent_System_Single;
+
+		private CheckEvent<int> NodeCanvas_Tasks_Conditions_CheckEvent_System_Int32;
+
+		private CheckEvent<Vector2> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector2;
+
+		private CheckEvent<Vector3> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector3;
+
+		private CheckEvent<Vector4> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector4;
+
+		private CheckEvent<Quaternion> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Quaternion;
+
+		private CheckEvent<Keyframe> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Keyframe;
+
+		private CheckEvent<Bounds> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Bounds;
+
+		private CheckEvent<Color> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Color;
+
+		private CheckEvent<Rect> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Rect;
+
+		private CheckEvent<ContactPoint> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_ContactPoint;
+
+		private CheckEvent<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_ContactPoint2D;
+
+		private CheckEvent<Collision> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Collision;
+
+		private CheckEvent<Collision2D> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Collision2D;
+
+		private CheckEvent<RaycastHit> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_RaycastHit;
+
+		private CheckEvent<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_RaycastHit2D;
+
+		private CheckEvent<Ray> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Ray;
+
+		private CheckEvent<Space> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Space;
+
+		private CheckEvent<LayerMask> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_LayerMask;
+
+		private CheckEventValue<bool> NodeCanvas_Tasks_Conditions_CheckEventValue_System_Boolean;
+
+		private CheckEventValue<float> NodeCanvas_Tasks_Conditions_CheckEventValue_System_Single;
+
+		private CheckEventValue<int> NodeCanvas_Tasks_Conditions_CheckEventValue_System_Int32;
+
+		private CheckEventValue<Vector2> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector2;
+
+		private CheckEventValue<Vector3> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector3;
+
+		private CheckEventValue<Vector4> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector4;
+
+		private CheckEventValue<Quaternion> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Quaternion;
+
+		private CheckEventValue<Keyframe> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Keyframe;
+
+		private CheckEventValue<Bounds> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Bounds;
+
+		private CheckEventValue<Color> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Color;
+
+		private CheckEventValue<Rect> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Rect;
+
+		private CheckEventValue<ContactPoint> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_ContactPoint;
+
+		private CheckEventValue<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_ContactPoint2D;
+
+		private CheckEventValue<Collision> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Collision;
+
+		private CheckEventValue<Collision2D> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Collision2D;
+
+		private CheckEventValue<RaycastHit> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_RaycastHit;
+
+		private CheckEventValue<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_RaycastHit2D;
+
+		private CheckEventValue<Ray> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Ray;
+
+		private CheckEventValue<Space> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Space;
+
+		private CheckEventValue<LayerMask> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_LayerMask;
+
+		private CheckUnityEvent<bool> NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Boolean;
+
+		private CheckUnityEvent<float> NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Single;
+
+		private CheckUnityEvent<int> NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Int32;
+
+		private CheckUnityEvent<Vector2> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector2;
+
+		private CheckUnityEvent<Vector3> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector3;
+
+		private CheckUnityEvent<Vector4> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector4;
+
+		private CheckUnityEvent<Quaternion> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Quaternion;
+
+		private CheckUnityEvent<Keyframe> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Keyframe;
+
+		private CheckUnityEvent<Bounds> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Bounds;
+
+		private CheckUnityEvent<Color> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Color;
+
+		private CheckUnityEvent<Rect> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Rect;
+
+		private CheckUnityEvent<ContactPoint> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_ContactPoint;
+
+		private CheckUnityEvent<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_ContactPoint2D;
+
+		private CheckUnityEvent<Collision> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Collision;
+
+		private CheckUnityEvent<Collision2D> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Collision2D;
+
+		private CheckUnityEvent<RaycastHit> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_RaycastHit;
+
+		private CheckUnityEvent<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_RaycastHit2D;
+
+		private CheckUnityEvent<Ray> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Ray;
+
+		private CheckUnityEvent<Space> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Space;
+
+		private CheckUnityEvent<LayerMask> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_LayerMask;
+
+		private CheckUnityEventValue<bool> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Boolean;
+
+		private CheckUnityEventValue<float> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Single;
+
+		private CheckUnityEventValue<int> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Int32;
+
+		private CheckUnityEventValue<Vector2> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector2;
+
+		private CheckUnityEventValue<Vector3> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector3;
+
+		private CheckUnityEventValue<Vector4> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector4;
+
+		private CheckUnityEventValue<Quaternion> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Quaternion;
+
+		private CheckUnityEventValue<Keyframe> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Keyframe;
+
+		private CheckUnityEventValue<Bounds> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Bounds;
+
+		private CheckUnityEventValue<Color> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Color;
+
+		private CheckUnityEventValue<Rect> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Rect;
+
+		private CheckUnityEventValue<ContactPoint> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_ContactPoint;
+
+		private CheckUnityEventValue<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_ContactPoint2D;
+
+		private CheckUnityEventValue<Collision> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Collision;
+
+		private CheckUnityEventValue<Collision2D> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Collision2D;
+
+		private CheckUnityEventValue<RaycastHit> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_RaycastHit;
+
+		private CheckUnityEventValue<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_RaycastHit2D;
+
+		private CheckUnityEventValue<Ray> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Ray;
+
+		private CheckUnityEventValue<Space> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Space;
+
+		private CheckUnityEventValue<LayerMask> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_LayerMask;
+
+		private CheckVariable<bool> NodeCanvas_Tasks_Conditions_CheckVariable_System_Boolean;
+
+		private CheckVariable<float> NodeCanvas_Tasks_Conditions_CheckVariable_System_Single;
+
+		private CheckVariable<int> NodeCanvas_Tasks_Conditions_CheckVariable_System_Int32;
+
+		private CheckVariable<Vector2> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector2;
+
+		private CheckVariable<Vector3> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector3;
+
+		private CheckVariable<Vector4> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector4;
+
+		private CheckVariable<Quaternion> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Quaternion;
+
+		private CheckVariable<Keyframe> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Keyframe;
+
+		private CheckVariable<Bounds> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Bounds;
+
+		private CheckVariable<Color> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Color;
+
+		private CheckVariable<Rect> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Rect;
+
+		private CheckVariable<ContactPoint> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_ContactPoint;
+
+		private CheckVariable<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_ContactPoint2D;
+
+		private CheckVariable<Collision> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Collision;
+
+		private CheckVariable<Collision2D> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Collision2D;
+
+		private CheckVariable<RaycastHit> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_RaycastHit;
+
+		private CheckVariable<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_RaycastHit2D;
+
+		private CheckVariable<Ray> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Ray;
+
+		private CheckVariable<Space> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Space;
+
+		private CheckVariable<LayerMask> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_LayerMask;
+
+		private ListContainsElement<bool> NodeCanvas_Tasks_Conditions_ListContainsElement_System_Boolean;
+
+		private ListContainsElement<float> NodeCanvas_Tasks_Conditions_ListContainsElement_System_Single;
+
+		private ListContainsElement<int> NodeCanvas_Tasks_Conditions_ListContainsElement_System_Int32;
+
+		private ListContainsElement<Vector2> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector2;
+
+		private ListContainsElement<Vector3> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector3;
+
+		private ListContainsElement<Vector4> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector4;
+
+		private ListContainsElement<Quaternion> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Quaternion;
+
+		private ListContainsElement<Keyframe> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Keyframe;
+
+		private ListContainsElement<Bounds> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Bounds;
+
+		private ListContainsElement<Color> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Color;
+
+		private ListContainsElement<Rect> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Rect;
+
+		private ListContainsElement<ContactPoint> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_ContactPoint;
+
+		private ListContainsElement<ContactPoint2D> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_ContactPoint2D;
+
+		private ListContainsElement<Collision> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Collision;
+
+		private ListContainsElement<Collision2D> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Collision2D;
+
+		private ListContainsElement<RaycastHit> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_RaycastHit;
+
+		private ListContainsElement<RaycastHit2D> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_RaycastHit2D;
+
+		private ListContainsElement<Ray> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Ray;
+
+		private ListContainsElement<Space> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Space;
+
+		private ListContainsElement<LayerMask> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_LayerMask;
+
+		private TryGetValue<bool> NodeCanvas_Tasks_Conditions_TryGetValue_System_Boolean;
+
+		private TryGetValue<float> NodeCanvas_Tasks_Conditions_TryGetValue_System_Single;
+
+		private TryGetValue<int> NodeCanvas_Tasks_Conditions_TryGetValue_System_Int32;
+
+		private TryGetValue<Vector2> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector2;
+
+		private TryGetValue<Vector3> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector3;
+
+		private TryGetValue<Vector4> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector4;
+
+		private TryGetValue<Quaternion> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Quaternion;
+
+		private TryGetValue<Keyframe> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Keyframe;
+
+		private TryGetValue<Bounds> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Bounds;
+
+		private TryGetValue<Color> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Color;
+
+		private TryGetValue<Rect> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Rect;
+
+		private TryGetValue<ContactPoint> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_ContactPoint;
+
+		private TryGetValue<ContactPoint2D> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_ContactPoint2D;
+
+		private TryGetValue<Collision> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Collision;
+
+		private TryGetValue<Collision2D> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Collision2D;
+
+		private TryGetValue<RaycastHit> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_RaycastHit;
+
+		private TryGetValue<RaycastHit2D> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_RaycastHit2D;
+
+		private TryGetValue<Ray> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Ray;
+
+		private TryGetValue<Space> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Space;
+
+		private TryGetValue<LayerMask> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_LayerMask;
+
+		private void NodeCanvas_Framework_Blackboard_GetVariable_1()
+		{
+		}
+
+		private void NodeCanvas_Framework_Blackboard_GetVariableValue_2()
+		{
+		}
+
+		private void NodeCanvas_Framework_IBlackboardExtensions_AddVariable_1()
+		{
+		}
+
+		private void NodeCanvas_Framework_IBlackboardExtensions_AddVariable_2()
+		{
+		}
+
+		private void NodeCanvas_Framework_IBlackboardExtensions_GetVariableValue_3()
+		{
+		}
+
+		private void NodeCanvas_Framework_IBlackboardExtensions_GetVariable_4()
+		{
+		}
+
+		private void CustomSpoof()
+		{
+		}
+	}
+}

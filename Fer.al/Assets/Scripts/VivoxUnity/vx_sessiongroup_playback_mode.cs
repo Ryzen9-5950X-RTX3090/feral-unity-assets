@@ -1,0 +1,5 @@
+public enum vx_sessiongroup_playback_mode
+{
+	VX_SESSIONGROUP_PLAYBACK_MODE_NORMAL,
+	VX_SESSIONGROUP_PLAYBACK_MODE_VOX
+}

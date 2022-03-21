@@ -1,0 +1,10 @@
+public class SocialExpanseStartupMessage : Message
+{
+	public readonly SocialExpanseLinearGenericQuestsCompletionItemComponent socialExpanseLinearGenericQuestsCompletionItemComponent;
+
+	public readonly SocialExpanseGroupLinearObjectsProgressItemComponent socialExpanseGroupLinearObjectsProgressItemComponent;
+
+	public SocialExpanseStartupMessage(SocialExpanseLinearGenericQuestsCompletionItemComponent q, SocialExpanseGroupLinearObjectsProgressItemComponent o)
+	{
+	}
+}
